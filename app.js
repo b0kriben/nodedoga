@@ -4,6 +4,7 @@ import bodyParser from 'body-parser'
 import expressRoute from './routes/express.js'
 import greetingRoute from './routes/greeting.js'
 import nodejsRoute from './routes/nodejs.js'
+import apiUsers from './api/users.js'
 
 const app=express()
 const PORT = 3000
